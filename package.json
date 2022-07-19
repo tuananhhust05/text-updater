@@ -1,0 +1,17 @@
+{
+  "name": "example-autoupdate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.8"
+  },
+  "dependencies": {
+    "uaup-js": "^0.0.22"
+  }
+}
