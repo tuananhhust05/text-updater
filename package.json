@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "electron-build": "electron-builder"
+  },
+  "build": {
+    "extends":null
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "electron-builder": "^23.1.0",
     "electron": "^19.0.8"
   },
   "dependencies": {
